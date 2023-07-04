@@ -1,0 +1,101 @@
+/* <!-- AUTHOR: MATTHEW JARED -->
+<!--  CLASS:    CIS-130    -->
+<!--   DATE:   07/03/2023  --> */
+
+
+
+body {
+    background-image: url("benjamin-davies-Oja2ty_9ZLM-unsplash.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.container1 {
+    display: block;
+    width: 95%;
+    height: 100%;
+    margin: auto;
+    z-index: 0;
+}
+
+nav {
+    position: sticky;
+    top: 0px;
+    padding: 1px;
+    background-color: rgba(101, 68, 116, 0.761);
+    color: aliceblue;
+    font-size: 28px;
+    text-align: center;
+    z-index: 1;
+    font-size: 72px;
+}
+
+
+.section1  {
+    display: block;
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    background-color: rgba(20, 21, 21, 0.725);
+    color: aliceblue;
+    align-items: center;
+    border: 2px solid red;
+    margin-top: 50px;
+    font-size: 20px;
+
+}
+
+.BoxTitle {
+    font-size: 20px;
+    width: 70%;
+    height: auto;
+    text-align: left;
+    text-indent: 10px;
+    margin-left: 15px;
+    border-bottom: 2px solid black;
+    
+}
+
+p {
+    padding: 10px;
+    text-indent: 15px;
+    word-spacing: 5px;
+    line-height: 25px;
+}
+
+footer {
+    background-color: rgba(101, 68, 116, 0.7);
+    color: whitesmoke;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    margin-top: 15px;
+    padding: 1px;
+    text-align: center;
+    clear: both;
+}
+
+@media screen and (min-width: 820px) {
+    .section1 { height: 470px;
+        background-color: rgba(10, 165, 193, 0.766);
+        color: rgb(255, 255, 255, 0.9);
+        width: 40%;
+        float: left;
+        margin: 30px
+    }   
+}
+
+
+@media screen and (min-width: 1280px) {
+    .section1 {     
+        height: 400px;
+        color: black;
+        background-color: rgba(255, 255, 255, 0.669);
+        width: 28%;
+        float: left;
+        margin: 30px
+    }
+}
